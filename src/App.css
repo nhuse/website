@@ -2,6 +2,7 @@ html {
   background-image: url('./assets/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 h1 {
@@ -53,11 +54,6 @@ aside {
   }
 }
 
-.home-screen {
-  height: 100vh;
-  color: white;
-}
-
 .contact-img {
   margin-left: 10px;
   margin-bottom: 10px;
@@ -77,6 +73,7 @@ aside {
 #linkedin:hover {
   display: block;
   margin-left: 35px;
+  margin-top: 30px;
   margin-bottom: 20px;
   transform: scale(2);
 }
@@ -99,7 +96,7 @@ aside {
 #gmail-wrapper:hover {
   display: flex;
   margin-left: 15px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 50px;
   transform: scale(2);
 }
@@ -134,11 +131,4 @@ aside {
   margin-left: 35px;
   margin-top: 20px;
   transform: scale(2);
-}
-
-.main {
-  margin: 0;
-  float: left;
-  width: 90vw;
-  height: 94vh;
 }

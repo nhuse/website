@@ -1,3 +1,8 @@
+import Navbar from "./Navbar"
+
 export default function Projects() {
-    return <h1>Projects</h1>
+    return <>
+    <Navbar />
+    <h1>Projects</h1>
+    </>
 }
