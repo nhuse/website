@@ -1,0 +1,18 @@
+.navbar {
+    display: block;
+    width: 100vw;
+    height: 6vh;
+}
+
+.nav-link {
+    font-size: 25px;
+    float: right;
+    padding-right: 75px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-img {
+    width: 100px;
+}
