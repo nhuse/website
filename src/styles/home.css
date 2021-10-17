@@ -1,0 +1,71 @@
+.main {
+  height: 94vh;
+  max-width: 90vw;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-1 {
+  font-size: 50px;
+  text-align: center;
+  border-right: solid 2px rgba(255,255,255,0.7);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20;
+  animation: typewriter 3s steps(19), cursor 1000ms steps(19) infinite;
+}
+
+@keyframes typewriter {
+  0%{width: 0;}
+  100%{width: 16ch;}
+}
+
+@keyframes cursor {
+  0%{border-right-color: rgba(255,255,255,0.7);}
+  100%{border-right-color: transparent;}
+}
+
+.wrapper {
+  height: 25vh;
+  width: 90vw;
+  justify-content: center;
+  display: inline-flex;
+}
+
+.dynamic {
+  margin: 0;
+}
+
+.wrapper .static {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.wrapper .dynamic {
+  overflow: hidden;
+}
+
+.dynamic li{
+  margin-bottom: 5px;
+  list-style: none;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+.dynamic li span {
+  position: relative;
+}
+
+.line-2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.work-link {
+  text-decoration: underline white;
+  color: white;
+}

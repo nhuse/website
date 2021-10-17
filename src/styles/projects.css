@@ -1,0 +1,45 @@
+.projects {
+  max-width: 100vw;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-cards {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  margin: 10px 0 10px 0;
+  cursor: pointer;
+}
+
+.project-img {
+  width: 400px;
+  height: auto;
+}
+
+.project-info {
+  height: 94vh;
+  max-width: 43ch;
+  font-size: 20px;
+  background: rgba(169, 169, 169, 0.30);
+}
+
+.project-h1 {
+  text-align: center;
+  text-decoration: underline;
+}
