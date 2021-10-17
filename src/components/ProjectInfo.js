@@ -17,8 +17,8 @@ export default function ProjectInfo({ project }) {
             <div>
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/> <br/>
             **This application requires a login. Please use the provided credientials- <br/>
-            <span style={{ textDecoration: "underline white" }}>Username:</span> guest<br/>
-            <span style={{ textDecoration: "underline white" }}>Password:</span> password
+            <span style={{ textDecoration: "underline white" }}>Username:</span> <span style={{fontFamily: "sans-serif"}}>guest</span><br/>
+            <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>password</span>
             </div>
             </>
         )
@@ -39,8 +39,8 @@ export default function ProjectInfo({ project }) {
             <div>
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/><br/>
             **Application has optional login for full functionality. If you would like to login, please use the following credientials- <br/>
-            <span style={{ textDecoration: "underline white" }}>Username:</span> guest<br/>
-            <span style={{ textDecoration: "underline white" }}>Password:</span> password
+            <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>guest@email.com</span><br/>
+            <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>password</span>
             </div>
             </>
         )
@@ -51,7 +51,7 @@ export default function ProjectInfo({ project }) {
             <p>
             A clone of Spotify using the Spotify Web API created as our final project for Phase 2 of FlatIron School to test our knowledge on React. <br/><br/>
             Upon first load of the web application, you will be asked to authenticate your Spotify account by logging in.
-            </p> <br/>
+            </p>
             <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://github.com/nhuse/potato-music-player')}>
             Code
             </p>
