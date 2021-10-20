@@ -16,7 +16,7 @@ export default function ProjectInfo({ project }) {
             </p>
             <div>
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/> <br/>
-            **This application requires a login. Please use the provided credientials- <br/>
+            **This application requires a login. Please use the provided credentials- <br/>
             <span style={{ textDecoration: "underline white" }}>Username:</span> <span style={{fontFamily: "sans-serif"}}>guest</span><br/>
             <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>password</span>
             </div>
@@ -38,7 +38,7 @@ export default function ProjectInfo({ project }) {
             </p>
             <div>
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/><br/>
-            **Application has optional login for full functionality. If you would like to login, please use the following credientials- <br/>
+            **Application has optional login for full functionality. If you would like to login, please use the following credentials- <br/>
             <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>guest@email.com</span><br/>
             <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>password</span>
             </div>
@@ -55,9 +55,14 @@ export default function ProjectInfo({ project }) {
             <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://github.com/nhuse/potato-music-player')}>
             Code
             </p>
+            <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://potato-music-player.vercel.app')}>
+            Deployed Version*
+            </p>
             <div>
-            *Installation instructions provided in the Git Read Me <br/>
-            **Application requires a spotify account
+            *Application requires a spotify account. Please use the following credentials for deployed version- <br/>
+            <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>nate.huse1023@gmail.com</span><br/>
+            <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>Password123</span><br/><br/>
+            **Installation instructions provided in the Git Read Me <br/>
             </div>
             </>
         )
