@@ -11,7 +11,6 @@ export default function Projects() {
     const [projectClicked, setProjectClicked] = useState(null)
 
     const handleProjectClick = project => {
-      console.log(1)
       setProjectClicked(project)
     }
 
@@ -25,21 +24,21 @@ export default function Projects() {
             handleProjectClick(1)
           }}>
             <img src={huseRoyale} alt="huse-royale" className="project-img" />
-            <h1>The Huse Royale</h1>
+            <h2>The Huse Royale</h2>
           </div>
 
           <div className="card" id="project-2" onClick={() => {
             handleProjectClick(2)
           }}>
             <img src={zenArcade} alt="zen-arcade" className="project-img" />
-            <h1>Zen Arcade</h1>
+            <h2>Zen Arcade</h2>
           </div>
 
           <div className="card" id="project-3" onClick={() => {
             handleProjectClick(3)
           }}>
             <img src={spotify} alt="spotify-clone" className="project-img" />
-            <h1>Spotify Clone</h1>            
+            <h2>Spotify Clone</h2>            
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ export default function Aside() {
         <div className="aside-img-wrapper">
             <img src={linkedin} alt="linkedin" className="contact-img" id="linkedin" onClick={() => window.open('https://www.linkedin.com/in/nathan-huse-64a52016b/')} />
             <div id="resume">
-                <a href={resume} target="_blank">
+                <a href={resume}>
                     <img src={resumeLogo} alt="resume" className="contact-img"/>
                 </a>
             </div>

@@ -11,7 +11,7 @@
 
 .aside-img-wrapper {
   position: relative;
-  top: 20%;
+  top: 30%;
   transform: translateY(-50%);
 }
 
@@ -98,36 +98,6 @@
   padding-top: 15px;
 }
 
-@media screen and (max-width: 1200px) {
-  .aside {
-    width: 100vw;
-    height: 15vh;
-  }
-  .aside-img-wrapper {
-    padding-top: 15px;
-    margin-bottom: 0px;
-    display: flex;
-    justify-content: center;
-  }
-  .getintouch {
-    font-size: 30px;
-    margin: 0 0 0 0;
-    padding-top: 0;
-    padding-bottom: 5px;
-    text-align: center;
-    width: 100vw;
-  }
-  .contact-img {
-    display: block;
-    
-  }
-  #gmail-wrapper {
-    padding-left: 10px;
-  }
-  #github {
-    padding-left: 10px;
-  }
-}
 @media screen and (max-width: 992px) {	
   .aside {
     width: 100vw;

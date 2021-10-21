@@ -14,7 +14,7 @@ export default function ProjectInfo({ project }) {
             <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('http://huse-royale.herokuapp.com/')}>
             Deployed Version
             </p>
-            <div>
+            <div className="footer">
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/> <br/>
             **This application requires a login. Please use the provided credentials- <br/>
             <span style={{ textDecoration: "underline white" }}>Username:</span> <span style={{fontFamily: "sans-serif"}}>guest</span><br/>
@@ -36,7 +36,7 @@ export default function ProjectInfo({ project }) {
             <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('http://zen-arcade.herokuapp.com/')}>
             Deployed Version
             </p>
-            <div>
+            <div className="footer">
             *This application is deployed with Heroku. Please be patient while it spins up on first load. <br/><br/>
             **Application has optional login for full functionality. If you would like to login, please use the following credentials- <br/>
             <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>guest@email.com</span><br/>
@@ -58,7 +58,7 @@ export default function ProjectInfo({ project }) {
             <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://potato-music-player.vercel.app')}>
             Deployed Version*
             </p>
-            <div>
+            <div className="footer">
             *Application requires a spotify account. Please use the following credentials for deployed version- <br/>
             <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>nate.huse1023@gmail.com</span><br/>
             <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>Password123</span><br/><br/>
