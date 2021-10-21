@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.d89d4df5.chunk.css",
-    "main.js": "/website/static/js/main.3f535cf5.chunk.js",
-    "main.js.map": "/website/static/js/main.3f535cf5.chunk.js.map",
+    "main.css": "/website/static/css/main.4527393b.chunk.css",
+    "main.js": "/website/static/js/main.85743878.chunk.js",
+    "main.js.map": "/website/static/js/main.85743878.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.a1e281a8.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.a1e281a8.js.map",
     "static/js/2.aab9a6fa.chunk.js": "/website/static/js/2.aab9a6fa.chunk.js",
     "static/js/2.aab9a6fa.chunk.js.map": "/website/static/js/2.aab9a6fa.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.d89d4df5.chunk.css.map": "/website/static/css/main.d89d4df5.chunk.css.map",
+    "static/css/main.4527393b.chunk.css.map": "/website/static/css/main.4527393b.chunk.css.map",
     "static/js/2.aab9a6fa.chunk.js.LICENSE.txt": "/website/static/js/2.aab9a6fa.chunk.js.LICENSE.txt",
     "static/media/Logo.2c92a4a1.svg": "/website/static/media/Logo.2c92a4a1.svg",
     "static/media/Nate Resume.76066c70.docx": "/website/static/media/Nate Resume.76066c70.docx",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a1e281a8.js",
     "static/js/2.aab9a6fa.chunk.js",
-    "static/css/main.d89d4df5.chunk.css",
-    "static/js/main.3f535cf5.chunk.js"
+    "static/css/main.4527393b.chunk.css",
+    "static/js/main.85743878.chunk.js"
   ]
 }
