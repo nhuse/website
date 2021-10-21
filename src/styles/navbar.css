@@ -5,7 +5,7 @@
 }
 
 .nav-link {
-  font-size: 25px;
+  font-size: 30px;
   float: right;
   padding-right: 50px;
   text-decoration: none;
@@ -20,7 +20,7 @@
 
 .logo-img {
   padding-left: 50px;
-  width: 80px;
+  width: 100px;
   position: relative;
   top: 50%;
   -ms-transform: translateY(-50%);

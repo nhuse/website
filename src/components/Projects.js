@@ -24,21 +24,21 @@ export default function Projects() {
             handleProjectClick(1)
           }}>
             <img src={huseRoyale} alt="huse-royale" className="project-img" />
-            <h2>The Huse Royale</h2>
+            <h1>The Huse Royale</h1>
           </div>
 
           <div className="card" id="project-2" onClick={() => {
             handleProjectClick(2)
           }}>
             <img src={zenArcade} alt="zen-arcade" className="project-img" />
-            <h2>Zen Arcade</h2>
+            <h1>Zen Arcade</h1>
           </div>
 
           <div className="card" id="project-3" onClick={() => {
             handleProjectClick(3)
           }}>
             <img src={spotify} alt="spotify-clone" className="project-img" />
-            <h2>Spotify Clone</h2>            
+            <h1>Spotify Clone</h1>            
           </div>
         </div>
       </div>

@@ -26,15 +26,15 @@
 }
 
 .project-img {
-  width: 250px;
+  width: 400px;
   height: auto;
 }
 
 .project-info {
   align-self: flex-start;
   height: 94vh;
-  max-width: 40ch;
-  font-size: 15px;
+  max-width: 45ch;
+  font-size: 20px;
   background: rgba(169, 169, 169, 0.30);
 }
 
@@ -104,6 +104,7 @@
     align-self: center;
   }
   .project-info {
+    margin-top: 50px;
     max-width: none;
     height: auto;
   }
