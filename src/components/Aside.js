@@ -8,9 +8,9 @@ import resume from '../assets/Nate Resume.docx'
 
 export default function Aside() {
     return (
-    <aside>
+    <div className="aside">
+        <p className="getintouch">Get in Touch</p>
         <div className="aside-img-wrapper">
-            <p style={{ margin: "0 0 20px 5px", fontSize: "19px" }}>Get in<br/> Touch</p>
             <img src={linkedin} alt="linkedin" className="contact-img" id="linkedin" onClick={() => window.open('https://www.linkedin.com/in/nathan-huse-64a52016b/')} />
             <div id="resume">
                 <a href={resume} target="_blank">
@@ -24,6 +24,6 @@ export default function Aside() {
             <img src={github} alt="github" className="contact-img" id="github" onClick={() => window.open('https://github.com/nhuse')} />
             <img src={medium} alt="medium" className="contact-img" id="medium" onClick={() => window.open('https://medium.com/@nathan.huse')} />
         </div>
-    </aside>
+    </div>
     )
 }

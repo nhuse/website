@@ -20,7 +20,7 @@ export default function Home() {
                     <li id="ce"><span>Car Enthusiast</span></li>
                 </ul>
             </div>
-            <p className="line-2">Thanks for checking out my site. <br/> 
+            <p className="line-2">Thanks for checking out my site. <br/>
             Feel free to reach out to me and be sure to check out my <Link to="/my-work" className="work-link">previous work!</Link></p>
         </div>
     </div>
