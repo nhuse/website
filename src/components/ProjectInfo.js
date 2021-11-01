@@ -59,9 +59,7 @@ export default function ProjectInfo({ project }) {
             Deployed Version*
             </p>
             <div className="footer">
-            *Application requires a spotify account. Please use the following credentials for deployed version- <br/>
-            <span style={{ textDecoration: "underline white" }}>Email:</span> <span style={{fontFamily: "sans-serif"}}>nate.huse1023@gmail.com</span><br/>
-            <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>Password123</span><br/><br/>
+            *Application requires a spotify premium account. <br/>
             **Installation instructions provided in the Git Read Me <br/>
             </div>
             </>
