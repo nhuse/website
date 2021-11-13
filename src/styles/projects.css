@@ -87,6 +87,8 @@
 @media screen and (max-width: 768px) {
   .projects {
     flex-direction: column;
+    height: auto;
+    justify-content: center;
   }
   .project-cards {
     flex-direction: column;
@@ -100,11 +102,11 @@
     width: 250px;
   }
   .project-container {
-    height: 65vh;
+    height: auto;
     align-self: center;
   }
   .project-info {
-    margin-top: 50px;
+    margin-top: auto;
     max-width: none;
     height: auto;
   }

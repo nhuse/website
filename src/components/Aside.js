@@ -11,7 +11,7 @@ export default function Aside() {
     <div className="aside">
         <p className="getintouch">Get in Touch</p>
         <div className="aside-img-wrapper">
-            <img src={linkedin} alt="linkedin" className="contact-img" id="linkedin" onClick={() => window.open('https://www.linkedin.com/in/nathan-huse-64a52016b/')} />
+            <img src={linkedin} alt="linkedin" className="contact-img" id="linkedin" onClick={() => window.open('https://www.linkedin.com/in/nathan-huse/')} />
             <div id="resume">
                 <a href={resume}>
                     <img src={resumeLogo} alt="resume" className="contact-img"/>

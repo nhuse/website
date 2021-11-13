@@ -11,6 +11,13 @@ export default function Projects() {
     const [projectClicked, setProjectClicked] = useState(null)
 
     const handleProjectClick = project => {
+      projectClicked ?
+        (
+          projectClicked === project ? 
+          setProjectClicked(null) : 
+          setProjectClicked(project)
+        ) 
+      :
       setProjectClicked(project)
     }
 
