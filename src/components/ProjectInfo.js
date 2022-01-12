@@ -64,5 +64,28 @@ export default function ProjectInfo({ project }) {
             </div>
             </>
         )
+    } else if(project === 4) {
+        return (
+            <>
+            <h1 className="project-h1">That's the Spot</h1>
+            <p>
+            A web app that allows a user to save a fishing spot and look back at it at a later date and see what kind of bait they were using, what the tides and weather conditions 
+            were, as well as a few other pieces of information.<br/><br/>
+            Utilized external APIs for the weather and tide information, as well as Google Maps API to integrate a map feature to make saving a spot easier. <br/><br/> 
+            App is hosted with AWS with a DynamoDB backend using GraphQL to communicate with the front end.
+            </p>
+            <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://github.com/nhuse/caught-where')}>
+            Code
+            </p>
+            <p style={{ textDecoration: "underline white", color: "white", cursor: "pointer" }} onClick={() => window.open('https://www.thatsthespot.fish')}>
+            Deployed Version*
+            </p>
+            <div className="footer">
+                *Application requires an account. Please use the following login credentials- <br/>
+                <span style={{ textDecoration: "underline white" }}>Username:</span> <span style={{fontFamily: "sans-serif"}}>guest</span><br/>
+                <span style={{ textDecoration: "underline white" }}>Password:</span> <span style={{fontFamily: "sans-serif"}}>password</span>
+            </div>
+            </>
+        )
     }
 }

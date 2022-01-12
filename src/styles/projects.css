@@ -6,7 +6,7 @@
 
 .project-container {
   align-self: flex-start;
-  height: 94vh;
+  height: auto;
   width: 70vw;
   display: flex;
   flex-direction: column;
@@ -26,14 +26,18 @@
 }
 
 .project-img {
-  width: 400px;
+  width: 500px;
   height: auto;
 }
 
 .project-info {
   align-self: flex-start;
-  height: 94vh;
-  max-width: 45ch;
+  margin-left: auto;
+  position: sticky;
+  right: 0;
+  top: 6vh;
+  height: auto;
+  max-width: 40ch;
   font-size: 20px;
   background: rgba(169, 169, 169, 0.30);
 }
@@ -52,7 +56,7 @@
     flex-direction: column;
   }
   .project-cards {
-    flex-direction: row;
+    flex-direction: column;
   }
   .card {
     margin-left: 2.5px;
@@ -60,7 +64,7 @@
     font-size: 10px;
   }
   .project-img {
-    width: 250px;
+    width: 400px;
   }
   .project-info {
     max-width: none;
@@ -99,7 +103,7 @@
     font-size: 10px;
   }
   .project-img {
-    width: 250px;
+    width: 350px;
   }
   .project-container {
     height: auto;
@@ -109,6 +113,9 @@
     margin-top: auto;
     max-width: none;
     height: auto;
+    bottom: 0;
+    top: 0;
+    position: relative;
   }
   .project-h1 {
     font-size: 20px;

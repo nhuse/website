@@ -4,6 +4,7 @@ import ProjectInfo from "./ProjectInfo"
 import huseRoyale from "../assets/images/huse-royale.png"
 import zenArcade from "../assets/images/zen-arcade.png"
 import spotify from "../assets/images/spotify.png"
+import fish from "../assets/images/thatsthespot.png"
 import "../styles/projects.css"
 import { useState } from "react"
 
@@ -46,6 +47,12 @@ export default function Projects() {
           }}>
             <img src={spotify} alt="spotify-clone" className="project-img" />
             <h1>Spotify Clone</h1>            
+          </div>
+          <div className="card" id="project-4" onClick={() => {
+            handleProjectClick(4)
+          }}>
+            <img src={fish} alt="fish-img" className="project-img" />
+            <h1>That's the Spot</h1>
           </div>
         </div>
       </div>

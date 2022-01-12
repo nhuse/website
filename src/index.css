@@ -1,5 +1,7 @@
 body {
   min-height: 100vh;
+  height: auto;
+  width: auto;
   margin: 0;
   font-family: 'ClassicComputer', Fallback, sans-serif;
   -webkit-font-smoothing: antialiased;
